@@ -38,5 +38,4 @@ Here is an overview of the program structure and the functions included:
    - In each iteration of the loop, it calls the `playGame()` function and checks if the game is over.
    - Prints the game over message or the updated game status.
 
-Note that some parts of the code are missing, including the implementation of several functions. You would need to complete the missing parts and add the game logic to make the program fully functional.
 <img width="1440" alt="Screenshot 2022-11-28 at 12 06 46 AM" src="https://user-images.githubusercontent.com/93098526/204198255-52cbc620-03b8-4096-9902-a2703262c166.png">
