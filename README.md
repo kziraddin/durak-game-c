@@ -1,41 +1,47 @@
-The given code is an implementation of the Durak game in C. Durak is a popular card game in former Soviet Union countries. The code is designed for a 2-player game, with one player being a human and the other player being the computer.
-
-Here is an overview of the program structure and the functions included:
-
-1. Enums:
-   - Rank: Represents the ranks of the cards (SIX to ACE).
-   - Suit: Represents the suits of the cards (HEARTS, DIAMONDS, CLUBS, SPADES).
-   - Color: Represents the color of the cards (RED or BLACK).
-   - Location: Represents the location of the cards (HOUSE, COMPUTER, HUMAN, TABLE, GARBAGE, TRUMP).
-   - Boolean: Represents boolean values (FALSE or TRUE).
-
-2. Global Variables:
-   - gameCounter: Keeps track of the number of games played.
-   - trumpCard: Index of the trump card in the Deck array.
-   - trumpSuit: Suit of the trump card.
-   - turn: Indicates the current turn (COMPUTER or HUMAN).
-   - attacker: Indicates the current attacker (COMPUTER or HUMAN).
-   - gameOver: Indicates whether the game is over or not.
-   - winner: Indicates the winner of the game (COMPUTER or HUMAN).
-   - attacks: Array of indexes of cards used for attacks.
-   - defenses: Array of indexes of cards used for defenses.
-   - tableLevel: Level of attacks and defenses on the table.
-
-3. Structs:
-   - Card: Represents a player card with rank, suit, color, and location.
-
-4. Function Declarations:
-   - Various utility functions to convert enums to strings and count cards in a location.
-   - Functions to initialize the deck, assign cards to players, initialize the trump card, and set the initial turn.
-   - Functions to print the deck, game status, and player cards.
-   - Functions for computer attacks and defenses.
-   - Functions to handle human input, validate moves, and play the human's turn.
-   - Functions to play the game, complete cards, clear the table, and check if the game is over.
-   - A function to clear the screen.
-
-5. The `main()` function:
-   - Initializes the deck, prints the game status, and enters the game loop.
-   - In each iteration of the loop, it calls the `playGame()` function and checks if the game is over.
-   - Prints the game over message or the updated game status.
 
 <img width="1440" alt="Screenshot 2022-11-28 at 12 06 46 AM" src="https://user-images.githubusercontent.com/93098526/204198255-52cbc620-03b8-4096-9902-a2703262c166.png">
+
+
+---
+
+### Game Development Project: Durak
+
+**Role:** Lead Developer
+
+**Technologies Used:** C, GCC, Git
+
+**Project Description:**
+Developed a console-based card game, Durak, implementing both human and computer player functionalities. Focused on creating an engaging and strategic gameplay experience with a simple command-line interface.
+
+**Key Skills and Accomplishments:**
+
+- **Programming Languages:** 
+  - **C:** Utilized C for implementing game logic, data structures, and game mechanics, showcasing proficiency in system-level programming.
+
+- **Game Design and Development:**
+  - **Gameplay Mechanics:** Designed and implemented game rules, including card dealing, turn management, and user interaction.
+  - **AI Development:** Created basic AI for computer opponent, handling strategy and decision-making processes.
+
+- **Software Development Practices:**
+  - **Modular Design:** Developed modular code with functions for initialization, gameplay, and user input, improving code readability and maintainability.
+  - **Debugging and Testing:** Conducted extensive testing to ensure correct game behavior, including edge cases and user input handling.
+
+- **Version Control:**
+  - **Git:** Managed project versions using Git, enabling collaborative development and maintaining a clean project history.
+
+- **Problem-Solving and Critical Thinking:**
+  - **Algorithm Design:** Implemented algorithms for card shuffling, dealing, and AI decision-making, demonstrating strong problem-solving skills.
+  - **User Experience:** Focused on creating an intuitive command-line interface for smooth user interactions.
+
+- **Project Management:**
+  - **Time Management:** Effectively managed project milestones and deadlines, ensuring timely completion of game features.
+  - **Documentation:** Created clear and comprehensive documentation, including a `README.md` file, to facilitate understanding and usage of the project.
+
+**Project Highlights:**
+
+- Developed a fully functional card game with strategic elements and interactive gameplay.
+- Implemented both player and AI components, providing a comprehensive gaming experience.
+- Delivered a well-documented project, enhancing its usability and maintainability.
+
+---
+
